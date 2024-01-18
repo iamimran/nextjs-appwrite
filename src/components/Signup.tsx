@@ -48,7 +48,7 @@ const Signup = () => {
           </Link>
         </p>
         {error && <p className="text-red-600 mt-8 text-center">{error}</p>}
-        <form onSubmit={create} className="mt-8">
+        <form onSubmit={createUser} className="mt-8">
           <div className="space-y-5">
             <div>
               <label
